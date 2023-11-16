@@ -9,12 +9,26 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-header h1 {
-
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-header ul {
+header nav ul li {
+  display: inline-block;
+}
 
+header div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header div ul li {
+  display: inline-block;
 }
