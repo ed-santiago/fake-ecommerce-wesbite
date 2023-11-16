@@ -1,3 +1,17 @@
 body {
   background: gray;
 }
+
+/*Head Section*/
+
+header {
+  display: flex;
+}
+
+header h1 {
+
+}
+
+header ul {
+
+}
