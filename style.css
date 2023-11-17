@@ -14,6 +14,10 @@ header {
   padding: 0;
 }
 
+header h1 {
+  margin: 15px 0px;
+}
+
 header nav ul {
   list-style: none;
   margin: 0;
@@ -22,11 +26,13 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
 
 header nav ul li a{
-  
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
 }
 
 header div ul {
@@ -40,10 +46,16 @@ header div ul li {
   padding: 0px 15px;
 }
 
+header div ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
 header form {
   width: 350px;
   height: 45px;
-  background-color: lightblue;
+  background-color: lightgray;
   display: flex;
 
 }
@@ -57,7 +69,7 @@ header form {
 }
 
 #submit-btn {
-  background: orange;
+  background: gray;
   padding: 5px 10px;
   border: none;
   outline: none;
