@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /*Head Section*/
@@ -21,6 +22,11 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
+  padding: 0px 20px;
+}
+
+header nav ul li a{
+  
 }
 
 header div ul {
@@ -31,4 +37,37 @@ header div ul {
 
 header div ul li {
   display: inline-block;
+  padding: 0px 15px;
+}
+
+header form {
+  width: 350px;
+  height: 45px;
+  background-color: lightblue;
+  display: flex;
+
+}
+
+#input-field {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+#submit-btn {
+  background: orange;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form ion-icon {
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
 }
