@@ -1,10 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/*Head Section*/
+/*Header Section*/
 
 header {
   display: flex;
@@ -84,6 +83,12 @@ form ion-icon {
   font-size: 16px;
 }
 
+/*Sale Section*/
+
+#sale {
+  margin-bottom: 100px;
+}
+
 #sale h1 {
   text-align: center;
   font-weight: normal;
@@ -140,4 +145,11 @@ form ion-icon {
   border-color: black;
   border-radius: 0;
   cursor: pointer;
+}
+
+/*Best-Selling section*/
+
+#best-selling h1 {
+  text-align: center;
+  font-size: 64px;
 }
