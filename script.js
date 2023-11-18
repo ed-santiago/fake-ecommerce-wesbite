@@ -1,6 +1,9 @@
-fetch('https://fakestoreapi.com/products/')
-  .then(res=>res.json())
-  .then(json=>console.log(json))
+const products = fetch('http://localhost:3000/products')
 
-const form = document.querySelector("input.input-field")
-console.log(form)
+function getProducts() {
+  fetch(products)
+    .then(res => res.json())
+    .then(data => console.log(data))
+}
+
+console.log(getProducts())
